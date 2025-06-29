@@ -1,0 +1,44 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Project walkthrough",
+  "steps": [
+    {
+      "file": "README.md",
+      "description": "# Project Walkthrough\n\nThis repository contains everything you need to get started.\n\nThe main program `weather.py` contains functions that you need to implement.\n\nTo check that the functions are behaving as expected, tests are written beforehand in the `tests` directory. Each function in `weather.py` has a corresponding test.\n\n## Manually starting a guided tour of the project\n\nTo start a guided code tour, you can follow these steps:\n\n1. Expand the _CodeTour_ section in the bottom left of the main editor page.\n2. Right click on the _Project Walkthrough_ tour then clicking on _Start Tour_.\n3. You can end the tour at any time by right clicking on the _Project Walkthrough_ tour and then clicking on _End Tour.",
+      "line": 7
+    },
+    {
+      "file": "weather.py",
+      "description": "# Main program\n\nThe main program `weather.py` contains a list of functions for you to implement, this first function is already filled out for you to use as an example.",
+      "line": 7
+    },
+    {
+      "file": "weather.py",
+      "description": "# Functions\n\nFunctions that contain a `pass` keyword need to be implemented.\n\nThe requirements are defined in the docstrings i.e. what arguments the function expects and what the function should do.\n\nOnce you've implemented the function, you can verify that it behaves as expected by running its corresponding test.",
+      "line": 19,
+      "title": "Function to be implemented"
+    },
+    {
+      "file": "tests/test_convert_date.py",
+      "description": "# Tests\n\nEach function has a corresponding test that goes through different scenarios.\n\nYou can run the tests directly in VS Code by clicking on the green arrow to the left of the test functions.",
+      "line": 5
+    },
+    {
+      "file": "tests/test_convert_date.py",
+      "description": "## Test Case\n\nYou can break down a test into three (3) parts:\n\n1. _Given_ a certain set of inputs.\n2. _When_ the function we want to test is called.\n3. _Then_ the **actual** result of the function should match the **expected** result.",
+      "line": 11
+    },
+    {
+      "file": ".github/workflows/tests.yml",
+      "description": "# CI (Continuous Integration)\n\nTests are automatically run on GitHub whenever you push to the `main` branch.\n\nThis is already configured for you, there are no additional steps needed here.\n\nThis is part of a build pipeline that is commonly used in real-world applications to ensure that code behaves as expected.",
+      "line": 1
+    },
+    {
+      "file": "README.md",
+      "description": "# Test status badge\n\nThis badge reflects the status of the tests for your project, this will turn green and passing once all tests pass.\n\nThis is already configured for you as part of CI (Continuous Integration), there are no additional steps needed here.\n\nThat concludes the project walkthrough. Happy coding!",
+      "line": 5
+    }
+  ],
+  "ref": "main",
+  "isPrimary": true
+}
