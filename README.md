@@ -8,8 +8,8 @@ Starter code for the Plus Weather project.
 
 ## Checklist
 
-- [ ] Implement the methods in `weather.py`.
-- [ ] Verify that everything works as intended by running the tests from the command line with
+- [x] Implement the methods in `weather.py`.
+- [x] Verify that everything works as intended by running the tests from the command line with
 `python -m unittest tests/*.py` or by running tests directly in VS Code.
 
 ## Manually starting a guided tour of the project
